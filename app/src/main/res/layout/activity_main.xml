@@ -8,7 +8,7 @@
     <!-- TODO: Update blank fragment layout -->
 
 
-    <EditText
+    <TextView
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:hint="标题"
@@ -23,14 +23,14 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:hint="请输入陋习的标题"
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/bigTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="" />
 
-    <EditText
+    <TextView
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:hint="详情"
@@ -44,7 +44,7 @@
     <Button
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:id="@+id/button1"
+        android:id="@+id/Date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button" />
@@ -56,11 +56,6 @@
         android:layout_height="wrap_content"
         android:text="是否已经解决" />
 
-    <androidx.fragment.app.FragmentContainerView
-        android:layout_marginTop="30dp"
-        android:id="@+id/fragmentContainerView"
-        android:name="com.gyj.dialogdemo.BlankFragment"
-        android:layout_width="match_parent"
-        android:layout_height="334dp" />
+
 
 </LinearLayout>
