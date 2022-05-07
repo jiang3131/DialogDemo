@@ -33,6 +33,12 @@ public class CrimeAdapter extends RecyclerView.Adapter<CrimeAdapter.ViewHolder> 
             final Crime crime=crimes.get(position);
             holder.binding.bigTitle.setText(crime.getBigtitle());
             holder.binding.Date.setText(crime.getDate());
+            if (crime.isSolved()){
+                holder.binding.imageView.setVisibility(View.VISIBLE);
+            }else {
+                holder.binding.imageView.setVisibility(View.INVISIBLE);
+
+            }
             holder.itemView.setSelected(currentIndex==position);
 
     }

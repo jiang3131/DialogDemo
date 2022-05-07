@@ -85,5 +85,10 @@ public class MainActivity2 extends AppCompatActivity {
             Crime crime=new Crime("Crime"+i,true,"Crime"+i,date) ;
             crimes.add(crime);
         }
+        for (int i = 0; i < 5; i++) {
+            Crime crime=new Crime("Crime"+(i+5),false,"Crime"+(i+5),date) ;
+            crimes.add(crime);
+        }
+
     }
 }
